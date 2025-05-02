@@ -9,7 +9,7 @@ This is a YunoHost package for self-hosting [SimpleLogin](https://simplelogin.io
 
 ## Installation
 ```bash
-yunohost app install https://github.com/YOUR_USERNAME/simplelogin_ynh
+yunohost app install https://github.com/Luncheon3462/simplelogin_ynh
 ```
 
 ## Requirements
