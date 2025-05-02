@@ -4,7 +4,7 @@
   "version": "1.0",
   "license": "MIT",
   "description": "Self-hosted email aliasing with SimpleLogin via Docker",
-  "url": "https://github.com/YOUR_USERNAME/simplelogin_ynh",
+  "url": "https://github.com/Luncheon3462/simplelogin_ynh",
   "requirements": {
     "yunohost": ">=4.2"
   }
