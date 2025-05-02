@@ -1,0 +1,24 @@
+name: CI - YunoHost App Linter
+
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+
+jobs:
+  ynh-lint:
+    name: YunoHost App Lint
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+      - name: Install ynh-dev
+        run: |
+          python -m pip install --upgrade pip
+          pip install ynh-dev
+      - name: Lint the app
+        run: ynh-dev lint
