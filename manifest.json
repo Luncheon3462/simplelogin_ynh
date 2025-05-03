@@ -7,5 +7,26 @@
   "url": "https://github.com/Luncheon3462/simplelogin_ynh",
   "requirements": {
     "yunohost": ">=4.2"
+  },
+  "arguments": {
+    "install": [
+      {
+        "name": "domain",
+        "type": "domain",
+        "ask": "Choose a domain to install SimpleLogin on",
+        "example": "example.org"
+      },
+      {
+        "name": "path",
+        "type": "path",
+        "ask": "Choose a path for the app (e.g., /mail)",
+        "default": "/"
+      },
+      {
+        "name": "admin_email",
+        "type": "email",
+        "ask": "Enter the email address for the admin account"
+      }
+    ]
   }
 }
