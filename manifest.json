@@ -2,6 +2,7 @@
   "id": "simplelogin",
   "name": "SimpleLogin",
   "version": "1.0",
+  "version_format": 2,
   "license": "MIT",
   "description": "Self-hosted email aliasing with SimpleLogin via Docker",
   "url": "https://github.com/Luncheon3462/simplelogin_ynh",
@@ -30,3 +31,4 @@
     ]
   }
 }
+
